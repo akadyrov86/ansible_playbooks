@@ -19,3 +19,4 @@
         path: "{{found.files|map(attribute='path')|list}}"
         format: gz
         dest: "{{dest_folder}}/{{days}}.tgz"
+        
